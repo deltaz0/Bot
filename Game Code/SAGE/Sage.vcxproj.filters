@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{dd05bdaf-6849-4cd9-86ce-b611a22999e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{457f7a73-0849-40ab-a6d4-4f9f269506dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{bcca3842-ed1f-4fdf-b0b4-d9fcf16c71fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{eac556fb-7b6b-4cc0-8a5e-30bda8846b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{d35b8311-b1e4-4ed6-8cea-88ef12734386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{5233d09d-0997-4fec-8de2-edb2df50e576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle">
+      <UniqueIdentifier>{4efa6546-7795-4b86-b692-2824520566dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{95cd4609-734b-47c0-a526-951637111413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{2904ea6a-6930-4b30-8232-10bf4d88fa5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{93366aeb-9ce5-4542-a16b-6d67944183d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Water">
+      <UniqueIdentifier>{5e784ae7-10d0-4329-8b52-3d69227f5afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Console">
+      <UniqueIdentifier>{fa57e23b-926d-43f1-98e2-ef41b29520ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{317818b4-90f3-496e-954f-02c26560c9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DerivedModels">
+      <UniqueIdentifier>{ef49377c-8605-402c-a57a-08cece4405a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectoryManager">
+      <UniqueIdentifier>{4ee51bfc-dfa6-4595-9f18-cf6a71cdb3b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generators">
+      <UniqueIdentifier>{b771521b-753f-41b8-b907-2e4f80b99ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DerivedCameras">
+      <UniqueIdentifier>{20622ba5-304e-460f-b693-9f23b56ec638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowsWrapper">
+      <UniqueIdentifier>{fd65ce45-4fb5-4acd-9347-ad04603aaa8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Common\AABB3.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Camera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\CommonStuff.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\EditTriMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\EulerAngles.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\FontCacheEntry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\MathUtil.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Matrix4x3.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Model.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\plane.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Quaternion.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Random.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Renderer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\RotationMatrix.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\TextureCacheEntry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\TriMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\GameObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\GameObjectManager.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Terrain\HeightMap.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Terrain\Terrain.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Terrain\TerrainSubmesh.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameBase.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\SoundManager.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle\ParticleDefines.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle\ParticleEffect.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle\ParticleEngine.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle\ParticleSystem.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Effect.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\IndexBuffer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\ModelManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\VertexBufferBase.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resource\ResourceBase.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resource\ResourceManager.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Water\Reflection.cpp">
+      <Filter>Water</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Water\Water.cpp">
+      <Filter>Water</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Console\Console.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Console\ConsoleCommands.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Console\ConsoleCommentEntry.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Console\ConsoleFunctionEntry.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Console\textParser.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TinyXML\tinystr.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TinyXML\tinyxml.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TinyXML\tinyxmlerror.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TinyXML\tinyxmlparser.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DerivedModels\AnimatedModel.cpp">
+      <Filter>DerivedModels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DerivedModels\ArticulatedModel.cpp">
+      <Filter>DerivedModels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectoryManager\DirectoryManager.cpp">
+      <Filter>DirectoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Generators\IDGenerator.cpp">
+      <Filter>Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Generators\NameGenerator.cpp">
+      <Filter>Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DerivedCameras\freecamera.cpp">
+      <Filter>DerivedCameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DerivedCameras\TetherCamera.cpp">
+      <Filter>DerivedCameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WindowsWrapper\WindowsWrapper.cpp">
+      <Filter>WindowsWrapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Common\AABB3.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Bitmap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Camera.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\CommonStuff.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\EditTriMesh.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\EulerAngles.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\FontCacheEntry.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\MathUtil.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Matrix4x3.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Model.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\plane.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Quaternion.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Random.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Rectangle.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Renderer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\RotationMatrix.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\TextureCacheEntry.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\TriMesh.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\vector2.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\vector3.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\GameObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\GameObjectManager.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Terrain\HeightMap.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Terrain\Terrain.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Terrain\TerrainSubmesh.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Terrain\TerrainVertex.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameBase.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\SoundManager.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle\Particle.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle\ParticleDefines.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle\ParticleEffect.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle\ParticleEngine.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle\ParticleSystem.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Effect.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\IndexBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ModelManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\VertexBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\VertexBufferBase.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\VertexTypes.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource\ResourceBase.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource\ResourceManager.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Water\Reflection.h">
+      <Filter>Water</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Water\Water.h">
+      <Filter>Water</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Console\Console.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Console\ConsoleCommentEntry.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Console\ConsoleDefines.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Console\ConsoleFunctionEntry.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Console\ParameterList.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Console\textParser.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TinyXML\tinystr.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TinyXML\tinyxml.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DerivedModels\AnimatedModel.h">
+      <Filter>DerivedModels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DerivedModels\ArticulatedModel.h">
+      <Filter>DerivedModels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DirectoryManager\DirectoryManager.h">
+      <Filter>DirectoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generators\IDGenerator.h">
+      <Filter>Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generators\NameGenerator.h">
+      <Filter>Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DerivedCameras\freecamera.h">
+      <Filter>DerivedCameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DerivedCameras\TetherCamera.h">
+      <Filter>DerivedCameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WindowsWrapper\WindowsWrapper.h">
+      <Filter>WindowsWrapper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SAGE Resources\consoleDoc.xml">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="SAGE Resources\Terrain.fx">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="SAGE Resources\Water.fx">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>

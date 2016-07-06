@@ -1,0 +1,27 @@
+﻿Build started 5/2/2012 7:04:07 AM.
+     1>Project "L:\Game Prog 2\Group Code\Patrick Long\Frame Viewer Modifications\Demo00\Ned3D\Ned3D.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Ned3D.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         L:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"L:\Game Prog 2\Group Code\Patrick Long\Frame Viewer Modifications\Demo00\/SAGE/Source/" /I"C:\Program Files\Microsoft DirectX SDK (August 2006)\Include" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Game.cpp
+         Game.cpp
+     1>Source\Game.cpp(1017): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\Game.cpp(1701): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 L:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+       Link:
+         L:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\Ned3D.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\Microsoft DirectX SDK (August 2006)\Lib\x86" d3d9.lib Ws2_32.lib d3dx9.lib dsound.lib winmm.lib dxguid.lib dinput8.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Ned3D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"L:\Game Prog 2\Group Code\Patrick Long\Frame Viewer Modifications\Demo00\Ned3D\Release\Ned3D.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Release\Ned3D.lib" /MACHINE:X86 Release\Game.obj
+         Release\HelpText.obj
+         Release\WinMain.obj
+         "L:\Game Prog 2\Group Code\Patrick Long\Frame Viewer Modifications\Demo00\SAGE\Release\Sage.lib" /WX[:NO] 
+     1>LINK : warning LNK4044: unrecognized option '/WX[:NO]'; ignored
+         Ned3D.vcxproj -> L:\Game Prog 2\Group Code\Patrick Long\Frame Viewer Modifications\Demo00\Ned3D\Release\Ned3D.exe
+       Manifest:
+         L:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\Ned3D.exe;#1" /manifest Release\Ned3D.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Ned3D.unsuccessfulbuild".
+         Touching "Release\Ned3D.lastbuildstate".
+     1>Done Building Project "L:\Game Prog 2\Group Code\Patrick Long\Frame Viewer Modifications\Demo00\Ned3D\Ned3D.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.85

@@ -1,0 +1,24 @@
+// version
+103
+// numTextures,numTris,numVerts,numParts,1,numLights,numCameras
+1,2,4,1,1,0,0
+// partList: firstVert,numVerts,firstTri,numTris,"name"
+0,4,0,2,"pCube2"
+// texture list: name
+cloudscrolls.tga
+// triList: materialIndex,vertices(index, texX, texY)
+0, 0,0.0,0.0, 2,0.0,255.0, 1,255.000,0.0
+0, 2,0.0,255.0, 3,255.0,255.0, 1,255.0,0.0
+// vertList: x,y,z
+-80.0,0.0,40.0
+80.0,0.0,40.0
+-80.0,0.0,-40.0
+80.0,0.0,-40.0
+// lightList: "name", type, x,y,z, r,g,b, (type-specific info)
+// cameraList: "name", x,y,z, p,b,h, fov(rad)
+partTree 1
+-1
+posOrientList 1
+0.0,0.0,0,0, 0,0,0
+partUserTextList 1
+0

@@ -1,0 +1,17 @@
+﻿Build started 5/2/2012 7:04:43 AM.
+     1>Project "L:\Game Prog 2\Group Code\Patrick Long\Frame Viewer Modifications\Demo00\SAGE\Sage.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Sage.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         Sage.vcxproj -> L:\Game Prog 2\Group Code\Patrick Long\Frame Viewer Modifications\Demo00\SAGE\Release\Sage.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\Sage.unsuccessfulbuild".
+         Touching "Release\Sage.lastbuildstate".
+     1>Done Building Project "L:\Game Prog 2\Group Code\Patrick Long\Frame Viewer Modifications\Demo00\SAGE\Sage.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06

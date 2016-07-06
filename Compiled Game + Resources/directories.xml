@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<directories>
+	<models path="\Models"/>
+	<textures path="\Textures"/>	
+	<sounds path="\Sounds"/>	
+	<xmls path="\XML"/>
+	<engine path="\SAGE Resources"/>
+  <shaders path="\Shaders" />
+  <saves path="\Save\" />
+</directories>

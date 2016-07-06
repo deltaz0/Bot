@@ -1,0 +1,136 @@
+﻿Build started 1/30/2014 1:47:12 PM.
+     1>Project "H:\Software PROJECTS\bot\Game Code\SAGE\Sage.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Sage.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"H:\Software PROJECTS\bot\Game Code\/Ned3D/Source/" /I"H:\Software PROJECTS\bot\Game Code\SAGE\/source/" /I"C:\Program Files\Microsoft DirectX SDK (August 2006)\Include" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Common\AABB3.cpp Source\Common\Bitmap.cpp Source\Common\Camera.cpp Source\Common\CommonStuff.cpp Source\Common\EditTriMesh.cpp Source\Common\EulerAngles.cpp Source\Common\FontCacheEntry.cpp Source\Common\MathUtil.cpp Source\Common\Matrix4x3.cpp Source\Common\Model.cpp Source\Common\plane.cpp Source\Common\Quaternion.cpp Source\Common\Random.cpp Source\Common\Renderer.cpp Source\Common\RotationMatrix.cpp Source\Common\TextureCacheEntry.cpp Source\Common\TriMesh.cpp Source\Input\Input.cpp Source\Objects\GameObject.cpp Source\Objects\GameObjectManager.cpp Source\Terrain\HeightMap.cpp Source\Terrain\Terrain.cpp Source\Terrain\TerrainSubmesh.cpp Source\Game\GameBase.cpp Source\Sound\SoundManager.cpp Source\Particle\ParticleDefines.cpp Source\Particle\ParticleEffect.cpp Source\Particle\ParticleEngine.cpp Source\Particle\ParticleSystem.cpp Source\Graphics\Effect.cpp Source\Graphics\IndexBuffer.cpp Source\Graphics\ModelManager.cpp Source\Graphics\VertexBufferBase.cpp Source\Resource\ResourceBase.cpp Source\Resource\ResourceManager.cpp Source\Water\Reflection.cpp Source\Water\Water.cpp Source\Console\Console.cpp Source\Console\ConsoleCommands.cpp Source\Console\ConsoleCommentEntry.cpp Source\Console\textParser.cpp Source\TinyXML\tinystr.cpp Source\TinyXML\tinyxml.cpp Source\TinyXML\tinyxmlerror.cpp Source\TinyXML\tinyxmlparser.cpp Source\DerivedModels\AnimatedModel.cpp Source\DerivedModels\ArticulatedModel.cpp Source\DirectoryManager\DirectoryManager.cpp Source\WindowsWrapper\WindowsWrapper.cpp
+         AABB3.cpp
+         Bitmap.cpp
+         Camera.cpp
+         CommonStuff.cpp
+         EditTriMesh.cpp
+         EulerAngles.cpp
+         FontCacheEntry.cpp
+         MathUtil.cpp
+         Matrix4x3.cpp
+         Model.cpp
+         plane.cpp
+         Quaternion.cpp
+         Random.cpp
+         Renderer.cpp
+         RotationMatrix.cpp
+         TextureCacheEntry.cpp
+         TriMesh.cpp
+         Input.cpp
+         GameObject.cpp
+         GameObjectManager.cpp
+         Generating Code...
+         Compiling...
+         HeightMap.cpp
+         Terrain.cpp
+         TerrainSubmesh.cpp
+         GameBase.cpp
+         SoundManager.cpp
+         ParticleDefines.cpp
+         ParticleEffect.cpp
+         ParticleEngine.cpp
+         ParticleSystem.cpp
+         Effect.cpp
+         IndexBuffer.cpp
+         ModelManager.cpp
+         VertexBufferBase.cpp
+         ResourceBase.cpp
+         ResourceManager.cpp
+         Reflection.cpp
+         Water.cpp
+         Console.cpp
+         ConsoleCommands.cpp
+         ConsoleCommentEntry.cpp
+         Generating Code...
+         Compiling...
+         textParser.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+         AnimatedModel.cpp
+         ArticulatedModel.cpp
+         DirectoryManager.cpp
+         WindowsWrapper.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"H:\Software PROJECTS\bot\Game Code\/Ned3D/Source/" /I"H:\Software PROJECTS\bot\Game Code\SAGE\/source/" /I"C:\Program Files\Microsoft DirectX SDK (August 2006)\Include" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\ConsoleFunctionEntry1.obj" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Console\ConsoleFunctionEntry.cpp
+         ConsoleFunctionEntry.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"H:\Software PROJECTS\bot\Game Code\/Ned3D/Source/" /I"H:\Software PROJECTS\bot\Game Code\SAGE\/source/" /I"C:\Program Files\Microsoft DirectX SDK (August 2006)\Include" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\IDGenerator1.obj" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Generators\IDGenerator.cpp
+         IDGenerator.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"H:\Software PROJECTS\bot\Game Code\/Ned3D/Source/" /I"H:\Software PROJECTS\bot\Game Code\SAGE\/source/" /I"C:\Program Files\Microsoft DirectX SDK (August 2006)\Include" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\NameGenerator1.obj" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Generators\NameGenerator.cpp
+         NameGenerator.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"H:\Software PROJECTS\bot\Game Code\/Ned3D/Source/" /I"H:\Software PROJECTS\bot\Game Code\SAGE\/source/" /I"C:\Program Files\Microsoft DirectX SDK (August 2006)\Include" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\freecamera1.obj" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source\DerivedCameras\freecamera.cpp
+         freecamera.cpp
+     1>Source\DerivedCameras\freecamera.cpp(73): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>Source\DerivedCameras\freecamera.cpp(74): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"H:\Software PROJECTS\bot\Game Code\/Ned3D/Source/" /I"H:\Software PROJECTS\bot\Game Code\SAGE\/source/" /I"C:\Program Files\Microsoft DirectX SDK (August 2006)\Include" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\TetherCamera1.obj" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source\DerivedCameras\TetherCamera.cpp
+         TetherCamera.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Release\Sage.lib" /LIBPATH:"d3d9.lib dinput8.lib" /NOLOGO Release\AABB3.obj
+         Release\Bitmap.obj
+         Release\Camera.obj
+         Release\CommonStuff.obj
+         Release\EditTriMesh.obj
+         Release\EulerAngles.obj
+         Release\FontCacheEntry.obj
+         Release\MathUtil.obj
+         Release\Matrix4x3.obj
+         Release\Model.obj
+         Release\plane.obj
+         Release\Quaternion.obj
+         Release\Random.obj
+         Release\Renderer.obj
+         Release\RotationMatrix.obj
+         Release\TextureCacheEntry.obj
+         Release\TriMesh.obj
+         Release\Input.obj
+         Release\GameObject.obj
+         Release\GameObjectManager.obj
+         Release\HeightMap.obj
+         Release\Terrain.obj
+         Release\TerrainSubmesh.obj
+         Release\GameBase.obj
+         Release\SoundManager.obj
+         Release\ParticleDefines.obj
+         Release\ParticleEffect.obj
+         Release\ParticleEngine.obj
+         Release\ParticleSystem.obj
+         Release\Effect.obj
+         Release\IndexBuffer.obj
+         Release\ModelManager.obj
+         Release\VertexBufferBase.obj
+         Release\ResourceBase.obj
+         Release\ResourceManager.obj
+         Release\Reflection.obj
+         Release\Water.obj
+         Release\Console.obj
+         Release\ConsoleCommands.obj
+         Release\ConsoleCommentEntry.obj
+         Release\textParser.obj
+         Release\tinystr.obj
+         Release\tinyxml.obj
+         Release\tinyxmlerror.obj
+         Release\tinyxmlparser.obj
+         Release\AnimatedModel.obj
+         Release\ArticulatedModel.obj
+         Release\DirectoryManager.obj
+         Release\WindowsWrapper.obj
+         Release\ConsoleFunctionEntry1.obj
+         Release\IDGenerator1.obj
+         Release\NameGenerator1.obj
+         Release\freecamera1.obj
+         Release\TetherCamera1.obj
+         Sage.vcxproj -> H:\Software PROJECTS\bot\Game Code\SAGE\Release\Sage.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\Sage.unsuccessfulbuild".
+         Touching "Release\Sage.lastbuildstate".
+     1>Done Building Project "H:\Software PROJECTS\bot\Game Code\SAGE\Sage.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:46.46
